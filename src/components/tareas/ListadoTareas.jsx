@@ -20,6 +20,7 @@ const ListadoTareas = () => {
                     (
                         tareasProyecto.map( tarea =>(
                             <Tarea 
+                                key={ tarea.nombre }
                                 tarea={ tarea }
                             />
                         ))
